@@ -1,16 +1,75 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ModerUI Dashboard
 
-Currently, two official plugins are available:
+**Built using ReactJS, Tailwind CSS V4, Material-UI, and Chart.js**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, responsive portfolio website built with React, featuring a glassmorphism design, analytics dashboard, and AI chat interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Three-Column Layout**: Collapsible sidebar, main content area, and AI chat panel
+- **Analytics Dashboard**: Interactive charts (Bar, Line, Pie, Scatter) using Chart.js
+- **Glassmorphism Design**: Modern backdrop-blur effects with custom color palette
+- **Dark/Light Mode Support**: Automatic theme detection with manual override
+- **Smooth Animations**: Transition effects on navigation and interactions
+- **Skills Showcase**: Categorized technical skills with interactive tags
+- **AWS S3 Integration**: Resume hosted on S3 with public access
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 18, React Router DOM
+- **Styling**: Tailwind CSS v4
+- **Charts**: Chart.js + react-chartjs-2
+- **Icons**: Material-UI Icons
+- **Deployment**: Vercel
+- **Storage**: AWS S3
+
+## Installation
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/RajeshV89/moderui-dashboard-ai.git
+cd moderui-dashboard-ai
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Visit `http://localhost:5173` to view the app.
+## Design Choices
+
+### Color Palette
+
+**Light Mode:**
+- Background: Cream (#fcfcf9, #fffffd)
+- Text: Slate (#134252)
+- Primary: Teal (#21808d)
+- Accent: Brown (#5e5240)
+
+**Dark Mode:**
+- Background: Charcoal (#1f2121, #262828)
+- Text: Gray (#f5f5f5)
+- Primary: Teal (#32b8c6)
+- Accent: Gray (#777c7c)
+
+### Glassmorphism Effect
+
+Used `backdrop-blur-lg` with semi-transparent backgrounds for a modern, depth-rich UI:
+
+## Contact
+
+**Rajesh Kumar V**
+- Email: rajeshvelraj89@gmail.com
+- LinkedIn: [linkedin.com/in/rajesh-velraj](https://linkedin.com/in/rajesh-velraj/)
+- GitHub: [github.com/RajeshV89](https://github.com/RajeshV89)
+
+---
