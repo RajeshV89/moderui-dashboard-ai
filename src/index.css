@@ -1,1 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* Light theme colors (default) */
+@theme{
+  --color-background: #030712;
+  --color-border-color:#30c8b7ff;
+  --color-textPrimary: #f4f4f4ff;
+  --color-textGrey: #a9b0bcff;
+  --color-primary: #030712;
+  --color-bg-secondary: #1a212e;
+  --color-smoke: #f4f4f4ff;
+  --color-text-main: #30c8b7ff; 
+  --color-french-gray: #a9b0bcff;
+}
+
+/* Dark theme colors */
+.dark {
+  --color-background: #ffffff;
+  --color-border-color:#30c8b7ff ;
+  --color-primary: #e9f9bd;
+  --color-textPrimary: #231547;
+  --color-secondary: #030712;
+  --color-smoke: rgb(0, 0, 0);
+  --color-french-gray: #a9b0bcff;
+  --color-text-main: #1a212e; 
+  --color-bg-secondary: #1a212e;
+
+
+
+}
+
+@layer base {
+  button {
+    cursor: pointer;
+  }
+}
+
+@keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(10px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fadeIn {
+          animation: fadeIn 0.5s ease-in-out;
+        }
