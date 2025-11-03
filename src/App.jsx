@@ -1,6 +1,6 @@
 import {Routes, Route} from 'react-router-dom';
 import LandingPage from './pages/LandingPage.jsx';
-import DashBoard from './pages/Dashboard.jsx';
+import DashBoard from './pages/DashBoard.jsx';
 import {useRef} from 'react'
   
 function App() {
